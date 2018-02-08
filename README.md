@@ -43,3 +43,5 @@ Bamazon Demo
 
 You can download and watch the demo of the Bamazon customer and manager interfaces at the link below. 
 
+C:\Users\Eric Goldstein\AppData\Local\Temp\Temp1_bamazonCustomer.zip\Recording_20180208_1126.mht
+C:\Users\Eric Goldstein\AppData\Local\Temp\Temp1_bamazonManager.zip\Recording_20180208_1129.mht
