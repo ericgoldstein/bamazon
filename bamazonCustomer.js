@@ -47,13 +47,14 @@ function promptUserPurchase() {
 
 		var item = input.item_id;
 		var quantity = input.quantity;
+		
 
 		var queryStr = 'SELECT * FROM products WHERE ?';
 
 		connection.query(queryStr, {item_id: item}, function(err, data) {
 			if (err) throw err;
 
-			console.log('data = ' + JSON.stringify(data));
+			// console.log('data = ' + JSON.stringify(data));
 
 			if (data.length === 0) {
 				console.log('ERROR: Invalid Item ID. Please select a valid Item ID.');
@@ -64,7 +65,7 @@ function promptUserPurchase() {
 
 				// console.log('productData = ' + JSON.stringify(productData));
 				// console.log('productData.stock_quantity = ' + productData.stock_quantity);
-
+				
 				if (quantity <= productData.stock_quantity) {
 					console.log('Congratulations, the product you requested is in stock! Placing order!');
 
