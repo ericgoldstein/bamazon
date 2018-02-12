@@ -36,9 +36,10 @@ The Add New Product option allows the user to enter details about a new product 
 To run the manager interface please follow the steps below:
 
 git clone git@github.com:ericgoldstein/bamazon.git
-cd bamazon
-npm install
-node bamazonManager.js
+
+-cd bamazon
+-npm install
+-node bamazonManager.js
 
 ###**Bamazon Demo**
 
